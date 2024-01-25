@@ -1,0 +1,406 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.nav {
+    width: 100%;
+    background-color: plum;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.logo {
+    border-radius: 20px;
+    border: solid plum;
+}
+
+.navblock {
+    height: 100%;
+    width: 100px;
+}
+
+.links {
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 20px;
+}
+
+.websites {
+    margin-left: 30px;
+}
+
+
+.about {
+    margin-left: 30px;
+}
+
+
+.contact {
+    margin-left: 30px;
+}
+
+a:link {
+    color: #ffffff;
+}
+
+a:visited {
+    color: #ffffff;
+}
+
+a:hover {
+    color: gray;
+}
+
+a:active {
+    color: #000000;
+}
+
+.home {
+    display: flex;
+    flex-direction: row;
+    height: 1000px;
+    width: 100%;
+
+}
+
+.leftblock {
+    height: 100%;
+    width: 25%;
+    background-color: plum;
+}
+
+.middleblockhome {
+    background-color: rgb(197, 124, 197);
+    height: 100%;
+    width: 50%;
+}
+
+.leftblockwebsite {
+    height: 100%;
+    width: 25%;
+    background-color: plum;
+}
+
+.middleblockwebsite {
+    background-color: #c57cc5;
+    height: 1000px;
+    width: 900px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.middlecoming {
+    background-color: #c57cc5;
+    height: 100px;
+    width: 900px;
+}
+
+.comingsoonone {
+    width: 703px;
+    height: 237px;
+    margin-top: 80px;
+    background-color: #000000;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.comingtext {
+    color: #ffffff;
+    font-size: 50px;
+}
+
+.textblockhomeone {
+    background-color: #ffffff;
+    height: 200px;
+    width: 80%;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.innerbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 450px;
+}
+
+.footer {
+    background-color: plum;
+    width: 100%;
+    height: 100px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.textblockhometwo {
+    display: flex;
+    height: 80px;
+    align-items: center;
+    width: 100%;
+}
+
+.news {
+    font-size: 30px;
+    color: #ffffff;
+}
+
+.tbhtspace {
+    height: 100%;
+    width: 80px;
+}
+
+.newsbarblock {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.newsbar {
+    background-color: white;
+    height: 50px;
+    width: 80%;
+    border-radius: 15px; 
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+.wa {
+    display: inline-block;
+    animation: like 6s infinite linear;
+    font-size: 40px;
+  }
+
+
+  .nav_mobile{
+    display: none;
+  }
+
+  .squarespace {
+    width: 1px;
+    height: 80%;
+  }
+
+  .phonenumberblock {
+    background-color: #ffffff;
+    height: 300px;
+    width: 500px;
+    border-radius: 20px;
+  }
+
+  .pnumber {
+    padding-top: 20px;
+    padding-left: 20px;
+  }
+
+  .email {
+    padding-left: 20px;
+  }
+
+  .aboutbox {
+    background-color: #ffffff;
+    height: 500px;
+    width: 80%;
+    border-radius: 20px;
+  }
+
+  .text-about {
+    color:#000000;
+    padding-left: 20px;
+    padding-top: 20px;
+  }
+  
+  @keyframes like {
+    0% {
+      margin-left: 0px;
+      display: flex;
+    }
+    10% {
+      margin-left: 65px;
+    }
+    20% {
+        margin-left: 130px;
+    }
+    30% {
+        margin-left: 195px;
+    }
+    40% {
+        margin-left: 260px
+    }
+    50% {
+        margin-left: 325px;
+    }
+    60% {
+        margin-left: 390px;
+    }
+    70% {
+        margin-left: 455px;
+    }
+    80% {
+        margin-left: 520px;
+    }
+    90% {
+        margin-left: 585px;
+    }
+    98% {
+        margin-left: 650px;
+    }
+    99% {
+        margin-left: 0px;
+        display: none;
+    }
+    100% {
+     margin-left: 0px;
+     display: none;
+    }
+  }
+
+  @keyframes liketwo {
+    0% {
+      margin-left: 0px;
+      display: none;
+    }
+    50% {
+        margin-left: 65px;
+        display: flex;
+    }
+    60% {
+        margin-left: 195px;
+    }
+    70% {
+        margin-left: 325px;
+    }
+    80% {
+        margin-left: 455px;
+    }
+    90% {
+        margin-left: 585px;
+    }
+    98% {
+        margin-left: 650px;
+    }
+    99% {
+        margin-left: 0px;
+        display: none;
+    }
+    100% {
+     margin-left: 0px;
+     display: none;
+    }
+  }
+
+  @media only screen and (max-width: 844px){
+
+
+    .tbhtspace {
+        width: 20px;
+        height: 2px;
+    }
+
+    .aboutbox {
+        width: 80%;
+        height: 300px;
+    }
+
+    .news {
+        margin-right: 50px;
+    }
+    .nav{
+        display: none;
+        flex-direction: column;
+        height: auto;
+        width: 100%;
+    }
+    .home{
+        flex-direction: column;
+        height: auto;
+        width: 100%;    
+    }
+    .about {
+        width: 10%;
+    }
+    .contact {
+        width: 10%;
+    }
+    .websites {
+        width: 10%;
+    }
+    .links {
+        width: 20%;
+    }
+    .leftblock {
+        width: 100%;
+    }
+    .logo {
+        display: none;
+    }
+    .navblock{
+        width: 100%;
+    }
+
+    .footer {
+        width: 100%;
+    }
+    .innerbox {
+        width: 100%;
+    }
+    .middleblockhome{
+        width: 100%;
+    }
+    .nav_mobile{
+        width: 100%;
+        background-color: plum;
+        height: 100px;
+        display: flex;
+        flex-direction: row;
+        position: fixed;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+
+
+    .logo_mobile{
+        border-radius: 20px;
+        border: solid plum;
+    }
+    .about_mobile{
+        margin-left: 5px;
+    }
+
+        .aboutbox {
+            width: 100%
+        }
+        .text-about {
+            width: 100%
+        }
+    .contact_mobile{
+        margin-left: 5px;
+    }
+    .websites_mobile{
+        margin-left: 5px;
+    }
+    .navblock_mobile{
+        height: 100%;
+        width: 5px;
+    }
+    
+  }
