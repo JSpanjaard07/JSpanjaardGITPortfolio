@@ -312,6 +312,18 @@ a:active {
   @media only screen and (max-width: 844px){
 
 
+    .texthomeone {
+        margin-left: 15px;
+    }
+
+    .logo_mobile {
+        width: 90px;
+    }
+
+    .homeknop {
+        padding-left: 200px;
+    }
+
     .tbhtspace {
         width: 20px;
         height: 2px;
@@ -400,7 +412,52 @@ a:active {
     }
     .navblock_mobile{
         height: 100%;
-        width: 5px;
+        width: 40px;
     }
+
+    @keyframes like {
+        0% {
+          margin-left: 0px;
+          display: flex;
+        }
+        10% {
+          margin-left: 0px;
+        }
+        20% {
+            margin-left: 35px;
+        }
+        30% {
+            margin-left: 70px;
+        }
+        40% {
+            margin-left: 105px
+        }
+        50% {
+            margin-left: 140px;
+        }
+        60% {
+            margin-left: 175px;
+        }
+        70% {
+            margin-left: 210px;
+        }
+        80% {
+            margin-left: 245px;
+        }
+        90% {
+            margin-left: 280px;
+        }
+        98% {
+            margin-left: 312px;
+        }
+        99% {
+            margin-left: 0px;
+            display: none;
+        }
+        100% {
+         margin-left: 0px;
+         display: none;
+        }
+      }
     
   }
